@@ -24,13 +24,38 @@ h1{
 }
 
 .destination-img {
-  width:  500px;
-  height: 700px;
+  width:  220px;
+  height: 320px;
   object-fit: cover;
   border-radius: 25px;
 }
 
 .cards{
-  display: block;
+  display: flex;
   margin: 100px auto 50px 100px;
+}
+
+.cards-content{
+  margin: 40px 50px 0px 30px;
+}
+
+.country {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.google-maps{
+  color: #918E9B;
+  text-decoration: underline;
+
+}
+
+h2{
+  font-size: 40px;;
+  padding: 0px;
+  margin: 10px;
+}
+
+.dates{
+  font-weight:bold
 }
