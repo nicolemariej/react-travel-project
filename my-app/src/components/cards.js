@@ -12,6 +12,7 @@ export default function Cards(){
 <p className="dates">12 Jan, 2021 - 24 Jan, 2021</p>
 <p className="description">Lake Atitlan is a volcanic lake located in the middle of guatemala. There are numerous surrounding towns. As well as spanish, the locals speak their native language. The language they speak will depend on which part of the lake their town is located.</p>
             </div>
+          
         </div>
     )
 }
