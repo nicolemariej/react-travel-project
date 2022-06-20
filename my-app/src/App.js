@@ -1,14 +1,20 @@
 import './App.css';
 import Header from './components/header';
-import Cards from './components/cards';
+import Card from './components/card';
+import data from './data';
 
 function App() {
+  const cards = data.map(item =>{
+    return (<Card
+              key={item.title}
+              {...item}
+              />)
+  })
+  
   return (
     <div className="App">
 <Header />
-<Cards />
-<Cards />
-<Cards />
+{cards}
     </div>
   );
 }
