@@ -1,4 +1,4 @@
-import './App.css';
+import './App.js'
 import Header from './components/header';
 import Card from './components/card';
 import data from './data';
@@ -13,7 +13,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Hello World<h1/>
+      
 <Header />
 {cards}
     </div>
